@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-left: 200px;
+}
+
+.p-login, .p-register {
+  margin-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 200%;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  width: 200%;
+}
+
+.btn-login {
+  background-color: rgb(123, 121, 121);
+  width: 100%;
+}
+
+.reg-h2, .log-h2 {
+  margin-left: 200px;
+}
+
+.app-nav {
+  background-color:rgb(114, 170, 180);
+  text-decoration:none;
+  color:blanchedalmond;
+  line-height:1;
+  vertical-align:middle;
+  border-right: 2px solid blanchedalmond;
+  font-size:1.3em;
+  font-weight:bold;
+  margin: 5px;
+}
+
+table {
+    border: 1.5px solid purple;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 1%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    position: relative;
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 1000px;
+}
+thead {
+    width: 100%;
+    border:1px dashed gray;
+    background-color: bisque;
+    border-collapse: collapse;
+}
+tr td {
+    border: 1px dashed grey;
+    padding-left: 2%;
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 100px;
+    color: #535bf2;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.action-desc {
+  margin-top: 15%;
+}
+
+fieldset {
+  border: 1.5px solid purple;
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+.form-add {
+  width: 300px;
+}
+
+select {
+  padding: 5px;
+}
+
+.btn-add {
+  background-color: green;
+  border-radius: 10px;
+}
